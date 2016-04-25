@@ -16,15 +16,11 @@ class JanelaVertical(JanelaDecorator):
     def __init__(self, janeladecorada):
         super(JanelaVertical, self).__init__()
 
-    def drawVertical(print):
+    def drawVertical(self):
         print("Janela Vertical")
 
-    def fazer():
-        print ("afsdfasd")
-
     def draw(self):
-        # drawVertical()
-        fazer()
+        drawVertical()
         janelaDecorada.draw()
 
 

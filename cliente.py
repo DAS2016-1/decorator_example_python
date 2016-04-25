@@ -6,3 +6,4 @@ if __name__ == "__main__":
     janelasimples.draw()
 
     janeladecorada = JanelaVertical(janelasimples)
+    janeladecorada.draw()
