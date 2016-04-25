@@ -1,9 +1,8 @@
-from Decorator import Janela, JanelaSimples, JanelaVertical, JanelaDecorator
+from decorator import *
 
 if __name__ == "__main__":
+
     janelasimples = JanelaSimples()
-
-    janelasimples.draw()
-
-    janeladecorada = JanelaVertical(janelasimples)
+    janeladecorada = JanelaVertical()
+    janeladecorada.set_janela(janelasimples)
     janeladecorada.draw()
