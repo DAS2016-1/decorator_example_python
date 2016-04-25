@@ -10,10 +10,11 @@ class JanelaDecorator(Janela):
     def draw(self):
         self.jan.draw()
 
-class JanelaVertical(JanelaDecorator):
+class Borda(JanelaDecorator):
     def __init__(self):
-        super(JanelaVertical, self).__init__()
+        super(Borda, self).__init__()
 
     def draw(self):
-        super(JanelaVertical, self).draw()
+        super(Borda, self).draw()
         print("Janela Vertical")
+        Draw().draw_borda()
